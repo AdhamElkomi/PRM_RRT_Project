@@ -77,14 +77,6 @@ RRT is more efficient when quick exploration is needed.
 
 The choice between the two depends on the application constraints.
 
----
-
-## Project Structure
-PRM_RRT_Project/
-├── src/ # MATLAB implementation
-├── report/ # LaTeX report + figures
-└── README.md
-
 
 ---
 
