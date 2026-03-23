@@ -38,15 +38,15 @@ It is faster and simpler to implement, but the resulting path is usually less di
 
 ### Example Environment
 
-![Environment](report/images/env.png)
+![Environment](images/env.png)
 
 ### PRM Result
 
-![PRM](report/images/prm.png)
+![PRM](images/prm.png)
 
 ### RRT Result
 
-![RRT](report/images/rrt.png)
+![RRT](images/rrt.png)
 
 ---
 
@@ -54,14 +54,14 @@ It is faster and simpler to implement, but the resulting path is usually less di
 
 ### Computation Time
 
-![Time](report/images/time.png)
+![Time](images/time.png)
 
 PRM becomes more expensive as the number of nodes increases due to graph construction.  
 RRT remains faster in most cases.
 
 ### Path Length
 
-![Length](report/images/length.png)
+![Length](images/length.png)
 
 PRM produces shorter and more stable paths.  
 RRT tends to generate longer paths because of its exploration strategy.
