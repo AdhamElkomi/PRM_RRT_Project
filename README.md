@@ -121,7 +121,7 @@ It is fast and simple but often generates less optimal paths.
 
 A bicycle model was implemented to simulate realistic motion.
 
-![Bicycle Model](report/images/ex1.png)
+![Bicycle Model](images/ex1.png)
 
 We can clearly see how steering direction and wheelbase affect the trajectory.
 
@@ -131,7 +131,7 @@ We can clearly see how steering direction and wheelbase affect the trajectory.
 
 The RRT algorithm was modified to generate feasible trajectories instead of straight lines.
 
-![Kinematic RRT](report/images/ex2.png)
+![Kinematic RRT](images/ex2.png)
 
 The tree now follows smooth curves, which better represents real vehicle motion.
 
@@ -141,7 +141,7 @@ The tree now follows smooth curves, which better represents real vehicle motion.
 
 The algorithm was improved by selecting nodes based on reachable trajectories instead of simple distance.
 
-![Feasible Kinematic RRT](report/images/ex3.png)
+![Feasible Kinematic RRT](images/ex3.png)
 
 This results in a more structured tree and better exploration of the environment.
 
@@ -151,7 +151,7 @@ This results in a more structured tree and better exploration of the environment
 
 A simple post-processing step was applied to reduce unnecessary detours.
 
-![Path Improvement](report/images/ex4.png)
+![Path Improvement](images/ex4.png)
 
 The improved path is shorter and more direct.
 
@@ -161,7 +161,7 @@ The improved path is shorter and more direct.
 
 Below is an example of how the solution is progressively built:
 
-![Finding Solution](report/images/finding_solution.gif)
+![Finding Solution](images/finding_solution.gif)
 
 This animation shows how the tree expands and eventually finds a valid path.
 
