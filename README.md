@@ -131,7 +131,7 @@ We can clearly see how steering direction and wheelbase affect the trajectory.
 
 The RRT algorithm was modified to generate feasible trajectories instead of straight lines.
 
-![Kinematic RRT](images/ex2.png)
+![Kinematic RRT](images/rrt1.png)
 
 The tree now follows smooth curves, which better represents real vehicle motion.
 
